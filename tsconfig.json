@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "module": "amd",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true
+    },
+    "include": [
+      "./cypress/integration/*.ts"
+    ],
+    "exclude": ["node_modules"]
+  }
