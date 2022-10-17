@@ -6,9 +6,11 @@ it ('login test', function() {
     cy.get(':nth-child(3) > .vs-con-input > .vs-inputx').type('f8866d4f')
     cy.get('.vs-button').click()
     cy.get('.cursor-pointer > .feather > [y1="12"]', {timeout: 10000}).should('be.visible').click()
-
-    cy.get(':nth-child(20) > a > .truncate').click()
-
-    cy.get(':nth-child(1) > :nth-child(2) > .text-sm').click()
+    cy.get(':nth-child(37) > a > .truncate').click()
+   
+    cy.get(':nth-child(2) > .text-sm > span').click()
+    
+    cy.get('.ml-3 > .vs-button-text').click()
+    cy.get('.vs-dialog-accept-button > .vs-button-text').click()
     
 })

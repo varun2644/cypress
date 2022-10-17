@@ -19,6 +19,7 @@ it ('login test', function() {
     cy.get('.header-table > .flex > .vs-component > .vs-button-text').click()
 
     cy.get(':nth-child(6) > .vs-button-success > .vs-button-text').click()
+    cy.get('.vs-dialog-accept-button').click()
 
 
 })
