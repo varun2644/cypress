@@ -26,9 +26,13 @@ it ('login test', function() {
 
     cy.get('.vx-card__body > .justify-end > .vs-component > .vs-button-text').click({force:true})
 
-    cy.get('.vs-dialog-accept-button > .vs-button-text').click({force:true})
+     cy.get('.vs-dialog-accept-button > .vs-button-text').click({force:true})
+        
 
 
     
-}) 
+})  
+
+
+ 
      
