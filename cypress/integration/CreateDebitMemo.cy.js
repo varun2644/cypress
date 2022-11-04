@@ -1,4 +1,4 @@
-it ('login test', function() {
+it ('login testing', function() {
 
     cy.visit('https://sandbox.linkage-tech.com/#/login')
     
